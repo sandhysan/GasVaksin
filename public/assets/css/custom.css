@@ -1,0 +1,66 @@
+.btn-vaksin {
+    color: #ffffff;
+    background-color: #6BB3FF;
+}
+
+.btn-vaksin:hover {
+    background-color: rgb(74, 103, 141);
+    color: #ffffff;
+}
+
+/* .btn-vaksin:active {} */
+
+.bg-vaksin {
+    background-color: #90b3e036;
+}
+
+.bg-absrak {
+    background-image: url(../img/bgaja_.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-biru {
+    background-color: rgb(45, 53, 158);
+    color: rgb(224, 234, 240);
+}
+
+.bg-biru-muda {
+    background-color: rgb(166, 206, 240);
+    color: rgb(61, 61, 61);
+}
+
+.width {
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .width {
+        width: 200px;
+    }
+}
+
+.link-card {
+    color: black !important;
+}
+
+.link-card:hover {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+body {
+    height: 100vh !important;
+
+}
+
+.footer {
+    color: #fff;
+    clear: both;
+    margin: 0em 0em 0em 0em;
+    position: relative;
+    top: 400px;
+
+}
